@@ -1,0 +1,395 @@
+body{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    background: url(../img/onlinelogomaker-050616-2255.png);
+    display:inline-block;
+}
+.headerContainer{
+    border-bottom: 3px black solid;
+    height: 50px;
+}
+.headerStatusBar{
+    display:inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.footerContainer{
+    border-top: 3px black solid;
+    text-align: center;
+    font-size: 40px;
+}
+.mainBodyContainer{
+    display: block;
+    text-align: center;
+    padding-bottom:  15%;
+    padding-top: 10%;
+}
+.loginBodyContainer{
+    display: block;
+    text-align: center;
+    padding-bottom:  15%;
+    padding-top: 10%;
+}
+.searchContainer{
+    display: inline-block;
+    width: 75%;
+}
+.searchFilterContainer{
+    display: inline-block;
+    width: 24%;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 20px;
+    min-height: 100%;
+}
+.searchFilterContainer label{
+    margin-right: 30px;
+}
+.searchFilterContainer h1{
+    text-align: center;
+}
+.mainPageText{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+.account_container{
+    display: inline-block;
+    width: 75%;
+}
+.account_container h1{
+    text-align: center;
+}
+.account_Recomend_Container{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 20px;
+    min-height: 100%;
+}
+.mainSearch{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-left: 15px;
+}
+.mainSearchCity{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.mainSearchAdress{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.geoButton{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    padding: 2px;
+    width: 30px;
+    border: none;
+}
+.displayInline{
+    display: inline-block;
+}
+.mainSearchButton{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    background: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+.mainSearchButton:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background: black;
+    padding: 10px;
+    margin-top: 50px;
+}
+.loginForm{
+    display: inline-block;
+    width: 49%;
+    border-right: 1px black solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.loginForm h1{
+    margin-bottom: 50px;
+}
+.loginForm input{
+    margin-bottom: 20px;
+}
+.loginSubmitButton{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.loginSubmitButton:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+.loginLogin{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.loginPassword{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.registerForm{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    vertical-align: middle;
+}
+.registerForm h1{
+    margin-bottom: 50px;
+}
+.registerForm input{
+    margin-bottom: 20px;
+}
+.icons{
+    height: 45px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.iconFacebook{
+    display:inline-block;
+    height: 45px;
+    width: 45px;
+    background: url(../img/000320_social_neworks_2_black.png);
+}
+.iconFacebook:hover{
+    display:inline-block;
+    height: 45px;
+    width: 45px;
+    background: url(../img/000320_social_neworks_2.png);
+}
+.iconTwitter{
+    display:inline-block;
+    height: 45px;
+    width: 45px;
+    background: url(../img/000320_social_neworks_2_black.png);
+    background-position: -145px 0px; 
+}
+.iconTwitter:hover{
+    display:inline-block;
+    height: 45px;
+    width: 45px;
+    background: url(../img/000320_social_neworks_2.png);
+    background-position: -145px 0px; 
+}
+.iconGmail{
+    display:inline-block;
+    height: 45px;
+    width: 45px;
+    background: url(../img/000320_social_neworks_2_black.png);
+    background-position: -97px 0px; 
+}
+.iconGmail:hover{
+    display:inline-block;
+    height: 45px;
+    width: 45px;
+    background: url(../img/000320_social_neworks_2.png);
+    background-position: -97px 0px; 
+}
+.searchResult{
+    padding: 20px;
+    padding-left: 50px;
+    border-bottom: 1px lightgray solid;
+}
+.searchResult h5{
+    color: dimgray;
+}
+.searchResult h5:before{
+    content: url(../img/pin-map-icon-614x460.png);
+}
+.searchResultDescription
+{
+    display: inline-block;
+}
+.searhImg{
+    height: 90px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+    float: left;
+}
+.searchShowButton{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+    float: right;
+    display: inline-block;
+}
+.searchShowButton:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background: black;
+    padding: 10px;
+    margin-top: 20px;
+    float: right;
+    display: inline-block;
+}
+.resultPosition{
+    height: 40px;
+    border-bottom: 1px black solid;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.resultPosition input{
+    display: inline-block;
+    border: 2px black solid;
+    background: white;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 0px;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.inNumber{
+    display: inline-block;
+    float: right;
+}
+.sortBy{
+    height: 30px;
+    width: 130px;
+    border: 2px solid black;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.filterSectionInput{
+    height: 30px;
+    width: 120px;
+    border: 2px solid black;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: center;
+}
+.account_Avatar{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+    border: 1px grey solid;
+}
+.filterSearchButton{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    background: white;
+    padding: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+    text-align: center;
+}
+.filterSearchButton:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background: black;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+.tabs_Account_container{
+    padding-left: 10px;
+}
+.navigation_Tabs li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 30px;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    border-right: 1px solid grey;
+    font-size: 20px;
+}
+.navigation_Tabs li a, a:hover, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+}
+.navigation_Tabs_content{
+    padding-left: 15px;
+    width: 100%;
+}
